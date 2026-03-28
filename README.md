@@ -1,17 +1,87 @@
-<img src="zeref.gif" width="280" align="right" />
+<div align="center">
 
-# ⚡ Leandro Pérez
-### Lead SRE & AI Systems Architect | Multi-Agent Orchestration Expert
+<img src="zeref.gif" width="200" />
 
-Elite Systems Architect (19 years old) specializing in autonomous LLM orchestration and mission-critical distributed infrastructure. With 5 years of conceptual engineering and 2 years driving high-stakes industrial deployments, I leverage state-of-the-art AI tooling (Antigravity Ecosystem) and memory-safe logic (Rust + CP-SAT) to build zero-defect, deterministic systems.
+<br />
 
-## 🛠️ Tech Stack & Arsenal
-*   **Languages:** Python 3.14t (Free-threaded / Strict), Rust, TypeScript 5+, SQL.
-*   **Core Focus:** Multi-Agent Orchestration, Model Context Protocol (MCP), LLM-driven Automation.
-*   **SRE & Infra:** Distributed Systems, Kernel Warden (eBPF EDR), OTel, Circuit Breakers, Docker.
-*   **Industrial Ops:** CP-SAT Optimization, Siemens PLC, Stealth Automation (Playwright/CDP).
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=600&lines=Leandro+P%C3%A9rez+G.;Systems+Architect+%7C+19+y%2Fo;Multi-Agent+Orchestration;Rust+%2B+Python+%2B+TypeScript)](https://github.com/LeandroPG19)
 
-## 🚀 Engineering Doctrine
-1.  **Zero Residual Risk:** Systems must survive in degraded states with 100% simulable and auditable logic.
-2.  **Defensive Architectures:** Strict Typing, Immutability by design, and unbreakable contracts.
-3.  **Continuous Automation:** If it requires human intervention, it's a bug.
+</div>
+
+---
+
+### About
+
+Systems Architect specializing in autonomous LLM orchestration and mission-critical distributed infrastructure. 5 years of conceptual engineering, 2 years driving high-stakes industrial deployments. Building zero-defect, deterministic systems with memory-safe logic.
+
+```rust
+let doctrine = [
+    "Zero Residual Risk — 100% simulable and auditable logic",
+    "Defensive Architectures — strict typing, immutability by design",
+    "Continuous Automation — if it requires human intervention, it's a bug",
+];
+```
+
+---
+
+### Tech Stack
+
+<div align="center">
+
+**Languages**
+
+![Rust](https://img.shields.io/badge/Rust-000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.14t-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Core Focus**
+
+![MCP](https://img.shields.io/badge/MCP-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Orchestration-FF6F00?style=for-the-badge)
+![LLM](https://img.shields.io/badge/LLM_Automation-00897B?style=for-the-badge)
+
+**Infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![eBPF](https://img.shields.io/badge/eBPF-FF4F00?style=for-the-badge)
+
+</div>
+
+---
+
+### Featured Projects
+
+<div align="center">
+
+[![cuba-memorys](https://github-readme-stats.vercel.app/api/pin/?username=LeandroPG19&repo=cuba-memorys&theme=tokyonight&hide_border=true)](https://github.com/LeandroPG19/cuba-memorys)
+[![cuba-thinking](https://github-readme-stats.vercel.app/api/pin/?username=LeandroPG19&repo=cuba-thinking&theme=tokyonight&hide_border=true)](https://github.com/LeandroPG19/cuba-thinking)
+
+</div>
+
+---
+
+### Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=LeandroPG19&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=LeandroPG19&theme=tokyonight&hide_border=true" width="49%" />
+
+<br />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeandroPG19&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" width="40%" />
+
+</div>
+
+---
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/leandropg19)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:leandropatodo@gmail.com)
+![Views](https://komarev.com/ghpvc/?username=LeandroPG19&color=blueviolet&style=flat-square)
+
+</div>
