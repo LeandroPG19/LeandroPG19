@@ -56,8 +56,12 @@ let doctrine = [
 
 <div align="center">
 
-[![cuba-memorys](https://github-readme-stats.vercel.app/api/pin/?username=LeandroPG19&repo=cuba-memorys&theme=tokyonight&hide_border=true)](https://github.com/LeandroPG19/cuba-memorys)
-[![cuba-thinking](https://github-readme-stats.vercel.app/api/pin/?username=LeandroPG19&repo=cuba-thinking&theme=tokyonight&hide_border=true)](https://github.com/LeandroPG19/cuba-thinking)
+<a href="https://github.com/LeandroPG19/cuba-memorys">
+  <img src="https://opengraph.githubassets.com/1/LeandroPG19/cuba-memorys" width="49%" />
+</a>
+<a href="https://github.com/LeandroPG19/cuba-thinking">
+  <img src="https://opengraph.githubassets.com/1/LeandroPG19/cuba-thinking" width="49%" />
+</a>
 
 </div>
 
