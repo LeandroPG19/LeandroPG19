@@ -52,7 +52,7 @@ let doctrine = [
 ![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Orchestration-FF6F00?style=for-the-badge)
 ![pgvector](https://img.shields.io/badge/pgvector_HNSW-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge)
-![eBPF](https://img.shields.io/badge/eBPF-FF4F00?style=for-the-badge)
+![Granian](https://img.shields.io/badge/Granian-CE422B?style=for-the-badge&logo=rust&logoColor=white)
 
 </div>
 
