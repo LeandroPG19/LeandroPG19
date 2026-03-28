@@ -4,7 +4,7 @@
 
 <br />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=600&lines=Leandro+P%C3%A9rez+G.;Systems+Architect+%7C+19+y%2Fo;Multi-Agent+Orchestration;Rust+%2B+Python+%2B+TypeScript)](https://github.com/LeandroPG19)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=C9D1D9&center=true&vCenter=true&width=720&lines=Leandro+P%C3%A9rez+G.;Systems+Architect+%7C+19+y%2Fo;Industrial+Automation+%2B+AI+Infrastructure;Rust+%2B+Python+%2B+TypeScript)](https://github.com/LeandroPG19)
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ### About
 
-Systems Architect specializing in autonomous LLM orchestration and mission-critical distributed infrastructure. 5 years of conceptual engineering, 2 years driving high-stakes industrial deployments. Building zero-defect, deterministic systems with memory-safe logic.
+Systems Architect at SIIOSA — designing and shipping industrial automation infrastructure for CNC manufacturing environments. Creator of the **cuba-\*** MCP ecosystem: persistent agent memory with Hebbian learning and knowledge graphs, multi-step reasoning engines, real-time web intelligence, and execution sandboxes. Deterministic, zero-residual-risk systems across Rust, Python 3.14, and Next.js.
 
 ```rust
 let doctrine = [
@@ -30,22 +30,28 @@ let doctrine = [
 
 **Languages**
 
-![Rust](https://img.shields.io/badge/Rust-000?style=for-the-badge&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python_3.14t-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+<img src="https://skillicons.dev/icons?i=rust,python,typescript,bash&theme=dark" />
 
-**Core Focus**
+<br />
 
-![MCP](https://img.shields.io/badge/MCP-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white)
-![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Orchestration-FF6F00?style=for-the-badge)
-![LLM](https://img.shields.io/badge/LLM_Automation-00897B?style=for-the-badge)
+**Backend · Frontend**
+
+<img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,postgres,redis&theme=dark" />
+
+<br />
 
 **Infrastructure**
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<img src="https://skillicons.dev/icons?i=docker,linux,prometheus,grafana&theme=dark" />
+
+<br />
+
+**AI / MCP Ecosystem**
+
+![MCP](https://img.shields.io/badge/MCP_Protocol-8A2BE2?style=for-the-badge&logo=anthropic&logoColor=white)
+![Multi-Agent](https://img.shields.io/badge/Multi--Agent_Orchestration-FF6F00?style=for-the-badge)
+![pgvector](https://img.shields.io/badge/pgvector_HNSW-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge)
 ![eBPF](https://img.shields.io/badge/eBPF-FF4F00?style=for-the-badge)
 
 </div>
