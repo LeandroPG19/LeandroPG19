@@ -37,21 +37,32 @@ loop {
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![CNC](https://img.shields.io/badge/CNC_·_G--code-37474F?style=flat-square)
 ![21 CFR](https://img.shields.io/badge/21_CFR_Part_11-263238?style=flat-square)
-![MCP](https://img.shields.io/badge/MCP-8A2BE2?style=flat-square&logo=anthropic&logoColor=white)
+![ISA-95](https://img.shields.io/badge/ISA--95-455A64?style=flat-square)
 
 </div>
 
 <div align="center">
 
+**Industrial Automation Stack — ISA-95**
+
 ```mermaid
-flowchart LR
-    A(["AI Agent"]):::a --> M["cuba-memorys"]:::c
-    A --> T["cuba-thinking"]:::c
-    A --> S["cuba-search"]:::c
-    A --> E["cuba-exec"]:::c
-    classDef a fill:#161B22,stroke:#FFB300,stroke-width:2px,color:#FFB300;
-    classDef c fill:#0D1117,stroke:#FF6F00,stroke-width:1px,color:#C9D1D9;
+flowchart TB
+    L4["ERP — Business / Planning"]:::steel
+    L3["MES — Manufacturing Execution · Rust · FastAPI · PostgreSQL"]:::amber
+    L2["SCADA / HMI — Supervision · Next.js · Grafana"]:::orange
+    L1["PLC — Real-Time Control · IEC 61131"]:::blue
+    L0["FIELD — Sensors · CNC · Actuators · OPC-UA / Modbus"]:::green
+    L4 --> L3 --> L2 --> L1 --> L0
+    classDef steel  fill:#0D1117,stroke:#8B949E,color:#C9D1D9;
+    classDef amber  fill:#161B22,stroke:#FFB300,stroke-width:3px,color:#FFB300;
+    classDef orange fill:#0D1117,stroke:#FF6F00,color:#C9D1D9;
+    classDef blue   fill:#0D1117,stroke:#4169E1,color:#C9D1D9;
+    classDef green  fill:#0D1117,stroke:#3FB950,color:#C9D1D9;
 ```
+
+<sub>Commands flow down · telemetry flows up — I architect the MES layer.</sub>
+
+<br /><br />
 
 <img src="https://github-readme-stats.vercel.app/api?username=LeandroPG19&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&bg_color=0D1117&icon_color=FF6F00&text_color=C9D1D9" height="150" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeandroPG19&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=0D1117&text_color=C9D1D9" height="150" />
