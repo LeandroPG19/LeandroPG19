@@ -69,6 +69,16 @@ flowchart TB
 
 <br /><br />
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LeandroPG19/LeandroPG19/output/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LeandroPG19/LeandroPG19/output/snake-light.svg" />
+  <img alt="contribution telemetry sweep" src="https://raw.githubusercontent.com/LeandroPG19/LeandroPG19/output/snake.svg" width="98%" />
+</picture>
+
+<sub>▸ contribution sweep — auto-generated every 12 h by GitHub Actions</sub>
+
+<br /><br />
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/leandropg19)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:leandropatodo@gmail.com)
 ![Views](https://komarev.com/ghpvc/?username=LeandroPG19&color=FFB300&style=flat-square&label=views)
