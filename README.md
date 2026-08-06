@@ -12,7 +12,7 @@
 
 ```
 ┌─ OPERATOR ──────────────────────────────────────────
-│ Leandro Pérez G. — Systems Architect @ SIIOSA
+│ Leandro Pérez G. — Systems Architect 
 │ Industrial Automation · MES · CNC · deterministic infra
 │ ● ONLINE — zero residual risk by design
 └─────────────────────────────────────────────────────
