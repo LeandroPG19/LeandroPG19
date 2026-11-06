@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="56" viewBox="0 0 880 56" role="img" aria-label="Simulated plant telemetry ticker">
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+@media (prefers-reduced-motion:reduce){animateTransform{display:none}}
+</style>
+<defs>
+<clipPath id="box"><rect x="0" y="0" width="880" height="56" rx="10"/></clipPath>
+<linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
+<stop offset="0" stop-color="#0d1117" stop-opacity="1"/><stop offset="0.06" stop-color="#0d1117" stop-opacity="0"/>
+<stop offset="0.94" stop-color="#0d1117" stop-opacity="0"/><stop offset="1" stop-color="#0d1117" stop-opacity="1"/>
+</linearGradient>
+</defs>
+<g clip-path="url(#box)">
+<rect width="880" height="56" fill="#0d1117"/>
+<g>
+<animateTransform attributeName="transform" type="translate" from="0 0" to="-1100 0" dur="28s" repeatCount="indefinite"/>
+<text x="0" y="33" font-size="13" fill="#7ee2a0" textLength="1100" lengthAdjust="spacing">plc01.temp=72.4C  |  press.bar=6.1  |  cnc02.spindle=11820rpm  |  line3.cycle=4.2s  |  opcua.session=OK  |  redis.stream=telemetry  |  pg.commit=OK  |  safe_state=false  |  </text>
+<text x="1100" y="33" font-size="13" fill="#7ee2a0" textLength="1100" lengthAdjust="spacing">plc01.temp=72.4C  |  press.bar=6.1  |  cnc02.spindle=11820rpm  |  line3.cycle=4.2s  |  opcua.session=OK  |  redis.stream=telemetry  |  pg.commit=OK  |  safe_state=false  |  </text>
+</g>
+<rect width="880" height="56" fill="url(#fade)"/>
+</g>
+<rect x="0.5" y="0.5" width="879" height="55" rx="10" fill="none" stroke="#30363d"/>
+<text x="16" y="12" font-size="9" fill="#6e7681">simulated telemetry</text>
+</svg>
