@@ -1,86 +1,61 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=FFB300&center=true&vCenter=true&width=560&lines=Systems+Architect+%C2%B7+Industrial+Automation;Deterministic+Infra+%E2%80%94+Rust+%C2%B7+Python+%C2%B7+TS;Zero+Residual+Risk+by+Design)](https://github.com/LeandroPG19)
+<img src="assets/hero.svg" alt="Leandro Pérez G. — Systems Architect, Industrial Automation. Isometric plant cell: a white hygienic-design 6-axis robot MIG girth-welding a turbofan engine casing on rotating rollers, a safety light curtain, a welding power source, a robot controller and gas cylinders, a CNC machining center, a PLC cabinet and a Redis and PostgreSQL server rack." width="880" />
 
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Status](https://img.shields.io/badge/●_ONLINE-3FB950?style=flat-square)
+<img src="assets/ticker.svg" alt="Simulated plant telemetry ticker" width="880" />
 
-</div>
+<br />
 
-```
-┌─ OPERATOR ──────────────────────────────────────────
-│ Leandro Pérez G. — Systems Architect 
-│ Industrial Automation · MES · CNC · deterministic infra
-│ ● ONLINE — zero residual risk by design
-└─────────────────────────────────────────────────────
-```
+<img src="https://skillicons.dev/icons?i=rust,python,fastapi,redis,postgres,typescript,nextjs,docker,linux,grafana,prometheus&theme=dark" alt="Rust, Python, FastAPI, Redis, PostgreSQL, TypeScript, Next.js, Docker, Linux, Grafana, Prometheus" />
 
-```rust
-loop {
-    let telemetry = plc.poll();                 // OPC-UA / Modbus TCP
-    match controller.evaluate(telemetry) {
-        Ok(command) => actuator.dispatch(command),
-        Err(fault)  => safe_state.engage(fault), // fail-closed, always
-    }
-}
-```
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=rust,python,typescript,fastapi,nextjs,react,postgres,redis,docker,linux,grafana,prometheus&theme=dark" />
+<br />
 
 ![OPC-UA](https://img.shields.io/badge/OPC--UA-0A5C36?style=flat-square)
 ![Modbus](https://img.shields.io/badge/Modbus_TCP-1A5276?style=flat-square)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
-![CNC](https://img.shields.io/badge/CNC_·_G--code-37474F?style=flat-square)
-![21 CFR](https://img.shields.io/badge/21_CFR_Part_11-263238?style=flat-square)
 ![ISA-95](https://img.shields.io/badge/ISA--95-455A64?style=flat-square)
+![21 CFR](https://img.shields.io/badge/21_CFR_Part_11-263238?style=flat-square)
+
+<br />
+
+<img src="assets/pipeline.svg" alt="Data path: PLC and CNC, Rust ingest, Redis Streams, Python workers, PostgreSQL. A fault drives the system to a safe state." width="880" />
+
+<img src="assets/orbit.svg" alt="Stack in orbit around the MES core" width="880" />
+
+<img src="assets/code.svg" alt="Rust ingest loop and Python stream worker" width="880" />
+
+<img src="assets/dashboard.svg" alt="Simulated plant monitoring dashboard" width="880" />
 
 </div>
 
+## Engineering rules
+
+| Rule | In practice |
+|---|---|
+| Fail closed | A fault or an invalid reading puts the service in a safe state. It never guesses. |
+| Idempotent writes | Every write carries a key, so a retry cannot repeat a physical action. |
+| Expand, then contract | Migrations stay compatible with the previous binary. |
+| Red test first | Shared records get a deterministic interleaving test, and each guard is sabotaged to prove it fails. |
+
+## Selected work
+
+| Project | What it is | Stack |
+|---|---|---|
+| [Memorys](https://github.com/LeandroPG19/Memorys) | Persistent memory MCP server for AI agents: knowledge graph, episodic memory, contradiction detection and Bayesian calibration. Open source. | <img src="https://skillicons.dev/icons?i=rust,docker&theme=dark" height="26" alt="rust,docker" /> |
+| Industrial MES platform | Manufacturing execution backend for the plant floor: Rust services, PostgreSQL as the source of truth. Private. | <img src="https://skillicons.dev/icons?i=rust,postgres,redis&theme=dark" height="26" alt="rust,postgres,redis" /> |
+| CNC tooling | Parametric CNC simulator and CAM tooling for machine shops. Private. | <img src="https://skillicons.dev/icons?i=python,fastapi,nextjs&theme=dark" height="26" alt="python,fastapi,nextjs" /> |
+
 <div align="center">
-
-**Industrial Automation Stack — ISA-95**
-
-```mermaid
-flowchart TB
-    L4["ERP — Business / Planning"]:::steel
-    L3["MES — Manufacturing Execution · Rust · FastAPI · PostgreSQL"]:::amber
-    L2["SCADA / HMI — Supervision · Next.js · Grafana"]:::orange
-    L1["PLC — Real-Time Control · IEC 61131"]:::blue
-    L0["FIELD — Sensors · CNC · Actuators · OPC-UA / Modbus"]:::green
-    L4 --> L3 --> L2 --> L1 --> L0
-    classDef steel  fill:#0D1117,stroke:#8B949E,color:#C9D1D9;
-    classDef amber  fill:#161B22,stroke:#FFB300,stroke-width:3px,color:#FFB300;
-    classDef orange fill:#0D1117,stroke:#FF6F00,color:#C9D1D9;
-    classDef blue   fill:#0D1117,stroke:#4169E1,color:#C9D1D9;
-    classDef green  fill:#0D1117,stroke:#3FB950,color:#C9D1D9;
-```
-
-<sub>Commands flow down · telemetry flows up — I architect the MES layer.</sub>
-
-<br /><br />
-
-<img src="https://github-readme-stats.vercel.app/api?username=LeandroPG19&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&hide_title=true&bg_color=0D1117&icon_color=FF6F00&text_color=C9D1D9" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeandroPG19&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=0D1117&text_color=C9D1D9" height="150" />
-
-<br /><br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LeandroPG19/LeandroPG19/output/snake.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LeandroPG19/LeandroPG19/output/snake-light.svg" />
-  <img alt="contribution telemetry sweep" src="https://raw.githubusercontent.com/LeandroPG19/LeandroPG19/output/snake.svg" width="98%" />
+  <img alt="contribution sweep" src="https://raw.githubusercontent.com/LeandroPG19/LeandroPG19/output/snake.svg" width="98%" />
 </picture>
-
-<sub>▸ contribution sweep — auto-generated every 12 h by GitHub Actions</sub>
 
 <br /><br />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/leandropg19)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:leandropatodo@gmail.com)
-![Views](https://komarev.com/ghpvc/?username=LeandroPG19&color=FFB300&style=flat-square&label=views)
 
 </div>
